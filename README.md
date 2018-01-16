@@ -1,3 +1,5 @@
+Sonnet 库使用面向对象的方法，允许创建定义一些前向传导计算的模块。模块用一些输入 Tensor 调用，添加操作到图里并返回输出 Tensor。其中一种设计选择是通过在随后调用相同的模块时自动重用变量来确保变量分享被透明化处理。 该库兼容 Linux/Mac OS X 和 Python 2.7。TensorFlow 的版本必须至少为 1.0.1。Sonnet 支持 TensorFlow 的 virtualenv 安装模式，以及 nativ pip 安装
+
 # ![Sonnet](images/sonnet_logo.png)
 
 Sonnet is a library built on top of TensorFlow for building complex neural
